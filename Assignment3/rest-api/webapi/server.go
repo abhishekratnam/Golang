@@ -55,6 +55,10 @@ func (h *coasterHandlers) get(w http.ResponseWriter, r *http.Request) {
 func (h *coasterHandlers) post(w http.ResponseWriter, r *http.Request) {
 	bodyBytes, err := ioutil.ReadAll(r.Body)
 	defer r.Body.Close()
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		w.Write([]byte(err.Error()))
+	}
 	h.Lock()
 	defer h.Unlock()
 }
