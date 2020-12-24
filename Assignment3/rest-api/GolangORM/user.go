@@ -6,7 +6,6 @@ import (
 	"net/http"
 
 	"github.com/jinzhu/gorm"
-	// "github.com/mattn/go-sqlite3"
 )
 
 var db *gorm.DB
