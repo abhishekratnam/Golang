@@ -41,7 +41,6 @@ func main() {
 	r.POST("/people", CreatePerson)
 	r.PUT("/people/:id", UpdatePerson)
 	r.DELETE("/people/:id", DeletePerson)
-
 	r.Run(":8080")
 }
 
