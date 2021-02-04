@@ -1,3 +1,0 @@
-https://www.tutorialspoint.com/html/html_text_links.htm
-https://www.golangprograms.com/golang-read-file-line-by-line-to-string.html
-https://www.golangprograms.com/golang-read-write-create-and-delete-text-file.html

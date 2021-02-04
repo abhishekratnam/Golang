@@ -1,0 +1,2 @@
+https://hackerone.com/bug-bounty-programs
+https://www.intel.com/content/www/us/en/security-center/bug-bounty-program.html
