@@ -1,3 +1,8 @@
+sudo mysql -u root
+use mysql;
+update user set plugin='' where User='root';
+flush privileges;
+exit;
 // substring_matching.go
 package main
 
